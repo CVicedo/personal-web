@@ -1,0 +1,119 @@
+.contact {
+  background: #373535;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact h2 {
+  margin: 5% 0% 0% 5%;
+  color: #FAF7F7;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.contact .contact__form {
+  margin: 0% 0% 0% 5%;
+}
+
+.contact .contact__form form {
+  display: -ms-grid;
+  display: grid;
+  width: 90%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+
+@media (max-width: 600px) {
+  .contact .contact__form form {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.contact .contact__form form .form__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column: span 2;
+}
+
+.contact .contact__form form .form__textarea textarea {
+  width: 100%;
+}
+
+.contact .contact__form form .form__terms {
+  grid-column: span 1;
+}
+
+.contact .contact__form form .form__terms .terms__input {
+  margin-right: 10px;
+}
+
+.contact .contact__form form .form__error-message {
+  height: 45px;
+  line-height: 45px;
+  background: #bb2929;
+  padding: 0px 15px;
+  border-radius: 3px;
+  grid-column: span 2;
+  width: 80%;
+}
+
+.contact .contact__form form .form__error-message p {
+  margin: 0px;
+}
+
+.contact .contact__form form .form__error-message strong {
+  margin-left: 10px;
+}
+
+.contact .contact__form form .form__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-column: span 2;
+}
+
+.contact .contact__form form .form__button button {
+  height: 45px;
+  line-height: 45px;
+  width: 30%;
+  background: #09A6FF;
+  color: #FAF7F7;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.contact .contact__form form .form__button button:hover {
+  background: #FAF7F7;
+  color: #09A6FF;
+}
+
+.contact .contact__form form .form__button .button__success-message {
+  font-size: 14px;
+  color: #1ed12d;
+  display: none;
+}
+/*# sourceMappingURL=Contact.css.map */

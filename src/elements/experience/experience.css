@@ -1,0 +1,42 @@
+.resume__dot {
+  border-color: #09A6FF !important;
+}
+
+.resume__connector {
+  background-color: #09A6FF !important;
+  width: 30px;
+}
+
+.resume__oposite {
+  -webkit-box-flex: 0.2 !important;
+      -ms-flex: 0.2 !important;
+          flex: 0.2 !important;
+}
+
+.resume__oposite .oposite__content {
+  color: #FAF7F7;
+  margin-left: 0;
+}
+
+.resume__paper {
+  padding: 6px 16px;
+}
+
+.resume__paper:hover {
+  background-color: #09A6FF;
+}
+
+.resume__paper:hover .paper__card-title {
+  text-transform: uppercase;
+  color: #FAF7F7;
+}
+
+.resume__paper .paper__card-title {
+  text-transform: uppercase;
+  color: #09A6FF;
+}
+
+.resume__paper .paper__card-subtitle {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=Experience.css.map */

@@ -1,0 +1,41 @@
+@import '../../assets/styles/colors/colors';
+
+.resume__dot{
+    border-color: $blue-relevant !important; //TODO: Resol aquest important
+}
+
+.resume__connector{
+    background-color: $blue-relevant !important; //TODO: Resol aquest important
+    width: 30px;
+}
+
+.resume__oposite{
+    flex: 0.2 !important; //TODO: Resol aquest important
+
+    .oposite__content{
+        color: $white-normal;
+        margin-left: 0;
+    }
+}
+
+.resume__paper {
+    padding: 6px 16px;
+
+    &:hover{
+        background-color: $blue-relevant;
+
+        .paper__card-title{
+            text-transform: uppercase;
+            color: $white-normal;
+        }
+    }
+
+    .paper__card-title{
+        text-transform: uppercase;
+        color: $blue-relevant;
+    }
+
+    .paper__card-subtitle{
+        text-transform: capitalize;
+    }
+}

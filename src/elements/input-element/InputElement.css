@@ -1,0 +1,69 @@
+label {
+  display: block;
+  font-weight: bold;
+  padding: 10px 10px 10px 0px;
+  min-height: 40px;
+  cursor: pointer;
+  color: #FAF7F7;
+}
+
+label .label-error {
+  color: #bb2929 !important;
+}
+
+label .contact__input {
+  position: relative;
+  z-index: 90;
+}
+
+label .contact__input .input__input {
+  width: 88%;
+  border-radius: 3px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 40px 0 10px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  border: 3px solid transparent;
+  outline: none;
+}
+
+label .contact__input .input__input:focus {
+  border: 3px solid #09A6FF;
+}
+
+label .contact__input .input-success {
+  border: 3px solid transparent;
+}
+
+label .contact__input .input-error {
+  border: 3px solid #bb2929 !important;
+}
+
+label .contact__input .input__icon {
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+  z-index: 100;
+  font-size: 16px;
+  opacity: 0;
+  cursor: text;
+}
+
+label .contact__input .input__icon .icon-error {
+  opacity: 1;
+  color: #bb2929;
+}
+
+label .contact__input .input__icon .icon-success {
+  opacity: 1;
+  color: #1ed12d;
+}
+
+label .contact__error-text {
+  font-size: medium;
+  margin-bottom: 0px;
+  color: #bb2929;
+  display: none;
+}
+/*# sourceMappingURL=InputElement.css.map */

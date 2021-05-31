@@ -1,0 +1,85 @@
+@import '../../assets/styles/colors/colors';
+
+.menu{
+    width: 20vw;
+    height: 100vh;
+    background: $black-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .portrait{
+        border-radius: 50%;
+        width: 60%;
+        margin-top: 8%;
+    }
+
+    h1{
+        width: 80%;
+        color: $white-normal;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-size: x-large;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 8%;
+    }
+
+    h2{
+        width: 80%;
+        color: $blue-relevant;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    .menu__sections{
+        width: 70%;
+        color: $white-normal;
+        display: flex;
+        flex-direction: column;
+
+        span{
+            margin-top: 5%;
+            &:hover{
+                color: $blue-relevant;
+            }
+        }
+
+        hr{
+            margin-bottom: 5%;
+        }
+
+        .sections__social-icons{
+            color: $white-normal;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .social-icons__icon{
+                &:hover{
+                    color: $blue-relevant;
+                }
+            }
+        }
+    }
+
+    .menu__donload-cv-button{
+        color: $blue-relevant;
+        border-color: $blue-relevant;
+        margin-top: 8%;
+
+        &:hover{
+            color: $black-background;
+            border-color: $black-background;
+            background: $blue-relevant;
+        }
+    }
+}

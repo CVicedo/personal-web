@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.app-container .app-container__pages {
+  width: 80%;
+}
+/*# sourceMappingURL=App.css.map */
