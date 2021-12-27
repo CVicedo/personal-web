@@ -20,18 +20,20 @@ const data = {
     experiences: {
       work: [
         {
-          timeFrame: '1/2021 - Present',
-          title: 'Web Developer',
-          company: 'Skylab Coders Academy',
+          timeFrame: '9/2021 - Present',
+          title: 'Full Stack Developer',
+          company: 'Rzilient',
           city: 'Barcelona',
-          description: [`Full Stack test-driven development (MEAN and MERN) using Agile methodologies.
-          Main projects:`, <br />, <br />, <strong>City Records: </strong>,
-          'Full stack MEAN project', <br />,
-            <strong>Fake Shop: </strong>,
-            'Front end React project using Redux and Fake Store API',
-            <br />,
-            <strong>Guess the flag: </strong>,
-            'Front end vanilla JavaScript using RestCountries API']
+          description: ['Frontend made with React, Redux, Material UI, Styled Components and other technologies / libraries. ',
+            'Migrating backend to microservices in Node hosted by Google Cloud Services. ', 'Mobile App made with React Native']
+        },
+        {
+          timeFrame: '6/2021 - 9/2021',
+          title: 'Frontend Developer',
+          company: 'Grupo Romeu Multiservicios',
+          city: 'Remote',
+          description: [`Frontend development with technologies such as React, Redux, SCSS... and libraries including
+        Ant Design. `, 'Use of Agile methodologies in order to organizing all the workflow']
         },
         {
           timeFrame: '11/2018 - 7/2020',

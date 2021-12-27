@@ -16,7 +16,9 @@ function Contact() {
     name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letters and spaces, may be wrotten with accents.
     email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
   };
-
+  console.log(name);
+  console.log(email);
+  console.log(message);
   return (
     <div className="contact">
       <h2>Contact</h2>

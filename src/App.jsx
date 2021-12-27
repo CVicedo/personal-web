@@ -7,7 +7,8 @@ import {
 import Menu from './components/menu/Menu';
 import Home from './components/home/Home';
 import Resume from './components/resume/Resume';
-import Contact from './components/contact/Contact';
+// import Contact from './components/contact/Contact';
+import ContactForm from './components/ContacForm/ContactForm';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/resume" component={Resume} />
-              <Route path="/contact" component={Contact} />
+              {/* <Route path="/contact" component={Contact} /> */}
+              <Route path="/contact" component={ContactForm} />
             </Switch>
           </div>
         </div>
